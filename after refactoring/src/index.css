@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: noaane;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}

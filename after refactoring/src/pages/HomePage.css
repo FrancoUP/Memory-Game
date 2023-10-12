@@ -1,0 +1,145 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background-color: #152938;
+}
+
+.main {
+  width: 654px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-memory {
+  color: #fcfcfc;
+  font-family: Atkinson Hyperlegible;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.box-main {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 56px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.box-selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-bottom: 32px;
+}
+
+.title {
+  color: #7191a5;
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.theme {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.numbers-player {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 22px;
+}
+
+.grid-size {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.button {
+  border-radius: 26px;
+  height: 52px;
+  border: none;
+
+  color: #fcfcfc;
+  font-family: Atkinson Hyperlegible;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.25s;
+}
+
+.start-game-btn {
+  border-radius: 35px;
+  background: #fda214;
+  height: 70px;
+  width: 100%;
+  border: none;
+
+  color: #fcfcfc;
+  text-align: center;
+  font-family: Atkinson Hyperlegible;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.25s;
+}
+
+.start-game-btn:hover {
+  background: #ffb84a;
+}
+
+@media (max-width: 670px) {
+  .main {
+    width: 100vw;
+  }
+
+  .box-main {
+    width: 90vw;
+    padding: 22px;
+  }
+}
+
+@media (max-width: 450px) {
+  .theme,
+  .numbers-player,
+  .grid-size {
+    column-gap: 11px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  .start-game-btn {
+    font-size: 22px;
+  }
+}

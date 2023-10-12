@@ -1,0 +1,94 @@
+{
+  "icons": [
+    {
+      "srcB": "/icone/ampollaB.png",
+      "srcY": "/icone/ampollaY.png",
+      "number": "1"
+    },
+    {
+      "srcB": "/icone/anchorB.png",
+      "srcY": "/icone/anchorY.png",
+      "number": "2"
+    },
+    {
+      "srcB": "/icone/bombB.png",
+      "srcY": "/icone/bombY.png",
+      "number": "3"
+    },
+    {
+      "srcB": "/icone/brushB.png",
+      "srcY": "/icone/brushY.png",
+      "number": "4"
+    },
+    {
+      "srcB": "/icone/cakeB.png",
+      "srcY": "/icone/cakeY.png",
+      "number": "5"
+    },
+    {
+      "srcB": "/icone/circleB.png",
+      "srcY": "/icone/circleY.png",
+      "number": "6"
+    },
+    {
+      "srcB": "/icone/coffeeB.png",
+      "srcY": "/icone/coffeeY.png",
+      "number": "7"
+    },
+    {
+      "srcB": "/icone/hammerB.png",
+      "srcY": "/icone/hammerY.png",
+      "number": "8"
+    },
+    {
+      "srcB": "/icone/handB.png",
+      "srcY": "/icone/handY.png",
+      "number": "9"
+    },
+    {
+      "srcB": "/icone/iceB.png",
+      "srcY": "/icone/iceY.png",
+      "number": "10"
+    },
+    {
+      "srcB": "/icone/ladderB.png",
+      "srcY": "/icone/ladderY.png",
+      "number": "11"
+    },
+    {
+      "srcB": "/icone/maskB.png",
+      "srcY": "/icone/maskY.png",
+      "number": "12"
+    },
+    {
+      "srcB": "/icone/moonB.png",
+      "srcY": "/icone/moonY.png",
+      "number": "13"
+    },
+    {
+      "srcB": "/icone/peaceB.png",
+      "srcY": "/icone/peaceY.png",
+      "number": "14"
+    },
+    {
+      "srcB": "/icone/scarableB.png",
+      "srcY": "/icone/scarableY.png",
+      "number": "15"
+    },
+    {
+      "srcB": "/icone/simbB.png",
+      "srcY": "/icone/simbY.png",
+      "number": "16"
+    },
+    {
+      "srcB": "/icone/squareB.png",
+      "srcY": "/icone/squareY.png",
+      "number": "17"
+    },
+    {
+      "srcB": "/icone/triangleB.png",
+      "srcY": "/icone/triangleY.png",
+      "number": "18"
+    }
+  ]
+}
